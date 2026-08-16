@@ -1,4 +1,4 @@
-# Base de Datos - Taller Mecánico 🔧
+# Base de Datos - Taller Mecánico
 
 ## Introducción
 
