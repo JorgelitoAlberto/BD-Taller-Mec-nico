@@ -6,7 +6,7 @@ Este repositorio contiene el diseño y estructura completa de la base de datos p
 
 ---
 
-## 📊 Diagrama Entidad-Relación (ER)
+## Diagrama Entidad-Relación (ER)
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -70,7 +70,7 @@ FK = Foreign Key (Clave Foránea)
 
 ---
 
-## 📋 Descripción Detallada del Diseño
+## Descripción Detallada del Diseño
 
 ### 1. **CLIENTES**
 Tabla que almacena la información de los clientes del taller.
@@ -132,7 +132,7 @@ Registro de repuestos utilizados en cada orden de servicio.
 
 ---
 
-## 🗂️ Estructura del Repositorio
+## Estructura del Repositorio
 
 ```
 BD-Taller-Mecanico/
@@ -160,73 +160,24 @@ BD-Taller-Mecanico/
 
 ---
 
-## 👥 Equipo de Desarrollo
+## Equipo de Desarrollo
 
 | Nombre | Rol | Responsabilidad |
 |--------|-----|-----------------|
-| **Jorge Banegas** | 👨‍💼 Coordinador | Coordinación general del proyecto |
-| **Luis Guillén** | 💾 Backend | Creación de tablas base |
-| **Rodrigo Velásquez** | 🔗 Infraestructura | Relaciones y constraints |
-| **Andrea Corrales** | 📥 Data | Inserciones de datos |
-| **Gabriela Loany** | 📥 Data | Inserciones de datos |
-| **Genesis Corea** | 📊 Analytics | Consultas y análisis |
-| Marcia | 📊 Analytics | Consultas y análisis |
+| **Jorge Banegas** | Coordinador | Coordinación general del proyecto |
+| **Luis Guillén** | CREATE | Creación de tablas base |
+| **Rodrigo Velásquez** | CREATE | Relaciones y constraints |
+| **Andrea Corrales** | INSERT | Inserciones de datos |
+| **Gabriela Loany** | INSERT | Inserciones de datos |
+| **Genesis Corea** | SELECT | Consultas |
+| Marcia | SELECT | Consultas |
 
 ---
 
-## 🌐 Configuración Supabase
+## Configuración Supabase
 
 **ID del Proyecto Supabase:**
 ```
 xtbofdmzmmgofogiszhn
 ```
-
-Para conectar a la base de datos, utiliza las credenciales proporcionadas por Supabase.
-
 ---
-
-## 🚀 Cómo Usar Este Repositorio
-
-### Paso 1: Clonar el Repositorio
-```bash
-git clone https://github.com/tu-usuario/BD-Taller-Mecanico.git
-cd BD-Taller-Mecanico
-```
-
-### Paso 2: Crear las Tablas
-1. Ejecutar los scripts de Luis (SQL_CREATE/Luis_Tablas/)
-2. Ejecutar los scripts de Rodrigo (SQL_CREATE/Rodrigo_Relaciones/)
-
-### Paso 3: Insertar Datos Iniciales
-1. Ejecutar los scripts de Andrea (SQL_INSERT/Andrea/)
-2. Ejecutar los scripts de Gabriela (SQL_INSERT/Gabriela/)
-
-### Paso 4: Ejecutar Consultas
-- Revisar consultas de Genesis (SQL_SELECT/Genesis/)
-- Revisar consultas de Marcia (SQL_SELECT/Marcia/)
-
----
-
-## 📝 Notas Importantes
-
-- **Integridad Referencial**: Se implementan restricciones CASCADE y SET NULL para mantener la coherencia de datos
-- **Placa Única**: La placa del vehículo es única en toda la base de datos
-- **Estados**: Los estados de citas y órdenes siguen un flujo definido
-- **Costos**: Todos los costos se expresan en decimales con dos dígitos de precisión
-
----
-
-## 📄 Licencia
-
-Este proyecto es de uso académico y está disponible bajo licencia MIT.
-
----
-
-## ✉️ Contacto
-
-Para consultas o sugerencias sobre el diseño de la base de datos, contacta al coordinador del proyecto: **Jorge Banegas**
-
----
-
-**Última actualización:** Agosto 2026  
-**Estado:** En Desarrollo
