@@ -1,0 +1,24 @@
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de configuración sensibles
+*.env
+.env.local
+config.local.js
+
+# Archivos de dependencias
+node_modules/
+__pycache__/
+*.pyc
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
