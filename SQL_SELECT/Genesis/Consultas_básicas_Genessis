@@ -1,0 +1,28 @@
+-- =====================================================
+-- CONSULTAS BÁSICAS (SELECT)
+-- Responsable: Genesis
+-- =====================================================
+
+-- 1. Listar todos los clientes registrados
+SELECT id_cliente, nombre, telefono, correo, direccion
+FROM clientes;
+
+-- 2. Listar los vehículos ordenados del más nuevo al más antiguo
+SELECT id_vehiculo, marca, modelo, anio, placa, color
+FROM vehiculos
+ORDER BY anio DESC;
+
+-- 3. Buscar clientes que viven en Tegucigalpa
+SELECT nombre, telefono, direccion
+FROM clientes
+WHERE direccion LIKE '%Tegucigalpa%';
+
+-- 4. Listar las citas que están en estado "Pendiente"
+SELECT id_cita, fecha, hora, motivo, estado
+FROM citas
+WHERE estado = 'Pendiente';
+
+-- 5. Listar los mecánicos especializados en "Motor"
+SELECT id_mecanico, nombre, especialidad, telefono
+FROM mecanicos
+WHERE especialidad = 'Motor';
